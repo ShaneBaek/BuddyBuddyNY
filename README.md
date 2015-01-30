@@ -1,0 +1,1 @@
+BuddyBuddyNY is an online space designed for both writers and illustrators. In BuddyBuddyNY, artists can show-off, collaborate, develop their art works. It doesn't matter if you are not serious/full-time artists as long as you believe in arts to join this wonderful community. Why don't you choose one if you are a writer or a painter (or both!) and explore what we are up to!
