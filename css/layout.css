@@ -1,10 +1,5 @@
 body {
 	margin: 5px;
-	display: inline-block;
-}
-
-.boxes {
-	display: inline-block;
 }
 
 .boxes a {
@@ -14,27 +9,31 @@ body {
 	white-space: nowrap;
 	overflow: hidden;
 	text-indent: 100%;
+	clear: both;
 }
 
 a.writer {
-	background: url(../images/box1-1-5.jpg) no-repeat;
+	background: url(../images/box1.jpg) no-repeat;
     z-index: 5; 
 }
-a.writer {background-position: -100px -20px; }
+a.writer {background-position: -90px -40px; }
 a.writer:hover {background-position: ; }
-a.writer:active {background-position: ; }
+a.writer:active {background-position: -800px -10px; }
 
 a.painter {
-	background: url(../images/box2-1-1.jpg) no-repeat;
+	background: url(../images/box3.jpg) no-repeat;
     z-index: 5;
 }
 a.painter {background-position: -100px -93px; }
 a.painter:hover {background-position: ; }
-a.painter:active {background-position: ; }
+a.painter:active {background-position: -800px -40px; }
 
 .about {
-	border-top: 1px solid black;
+	border-top: 2px solid grey;
 	padding: 0;
+	margin: 0 5px 10px 0;
+	width: 100%;
+	display: block;
 }
 
 h2 {
@@ -48,11 +47,11 @@ h2 {
 
 p {
 	padding: 0; 
-	margin: 0 0 10px 0;
 	display: inline-block;
 	font-family: 1.3em 'Baskerville', serif; 
 	color: black;
 	font-weight: normal;
+	margin: 5px 0 0 0;
 }
 
 footer {
@@ -62,10 +61,6 @@ footer {
 }
 
 /*////fixes///*/
-
-.clear {
-  clear:both;
-}
 
 
 

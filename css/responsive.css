@@ -12,28 +12,41 @@
 @media only screen and (max-width: 1016px) {
   .boxes a {
   display: inline-block;
-  width: 300px;
+  width: 600px;
   height: 500px; 
   white-space: nowrap;
   overflow: hidden;
   text-indent: 100%;
   }
-  a.writer, a.painter {
-    width: 100%;
-  }
   
+
   a.writer {background-position: -10px -50px; }
+  a.writer:hover {background-position: ; }
+  a.writer:active {background-position: -700px -10px ; }
+
+  a.painter {background-position: -50px -45px; }
+  a.painter:hover {background-position: ; }
+  a.painter:active {background-position: -679px -14px ; }
+}
+
+@media only screen and (max-width: 655px) { 
+  .boxes a {
+    width: 250px;
+    height: 450px;
+  }
+
+  a.writer {background-position: -80px -50px; }
   a.writer:hover {background-position: ; }
   a.writer:active {background-position: ; }
 
-  a.painter {background-position: -20px -45px; }
+  a.painter {background-position: -100px -75px; }
   a.painter:hover {background-position: ; }
   a.painter:active {background-position: ; }
 }
 
 @media only screen and (max-width: 490px) {  
  .boxes a {
-  display: inline-block;
+  display: block;
   width: 100px;
   height: 300px; 
   white-space: nowrap;
@@ -55,6 +68,10 @@ a.painter {
 a.painter {background-position: -20px -45px; }
 a.painter:hover {background-position: ; }
 a.painter:active {background-position: ; }
+
+.navigation {
+  display: none;
+}
 
 }
 

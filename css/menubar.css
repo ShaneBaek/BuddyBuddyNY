@@ -3,12 +3,14 @@
 }
 
 .navigation {
+	display: inline-block;
 	float: right;
 }
 
 .nav {
 	margin: 7px;
 	list-style: none;
+	display: block;
 }
 
 h1 {
