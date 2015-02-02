@@ -2,6 +2,10 @@ body {
 	margin: 5px;
 }
 
+.boxes {
+	text-align: center;
+}
+
 .boxes a {
 	display: inline-block;
 	min-width: 500px;
@@ -9,7 +13,7 @@ body {
 	white-space: nowrap;
 	overflow: hidden;
 	text-indent: 100%;
-	clear: both;
+
 }
 
 a.writer {
@@ -17,7 +21,7 @@ a.writer {
     z-index: 5; 
 }
 a.writer {background-position: -90px -40px; }
-a.writer:hover {background-position: ; }
+a.writer:hover {background-position: -800px -10px; }
 a.writer:active {background-position: -800px -10px; }
 
 a.painter {
@@ -25,7 +29,7 @@ a.painter {
     z-index: 5;
 }
 a.painter {background-position: -100px -93px; }
-a.painter:hover {background-position: ; }
+a.painter:hover {background-position: -800px -40px; }
 a.painter:active {background-position: -800px -40px; }
 
 .about {
