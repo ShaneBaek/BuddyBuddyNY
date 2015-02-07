@@ -1,3 +1,15 @@
+@media only screen and (max-width: 1073px) {
+ a.painter {
+  margin-left: 10px;
+ }
+}
+
+@media only screen and (max-width: 1031px) {
+ body {
+  margin: 0;
+ }
+}  
+
 @media only screen and (min-width: 1017px) {
   .boxes a {
   display: inline-block;
@@ -9,7 +21,7 @@
   }
 }
 
-@media only screen and (max-width: 1016px) {
+@media only screen and (max-width: 1017px) {
   .boxes a {
   display: inline-block;
   width: 600px;
@@ -19,6 +31,10 @@
   text-indent: 100%;
   }
   
+  a.painter {
+    margin-left: 0;
+  }
+
   a.writer {background-position: -10px -50px; }
   a.writer:hover {background-position: - }
   a.writer:active {background-position: -700px -10px ; }

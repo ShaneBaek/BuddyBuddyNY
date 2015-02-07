@@ -4,7 +4,8 @@ body {
 
 .boxes {
 	text-align: center;
-	background: url(../images/back8-1.jpg);
+	background: url(../images/28.jpg);
+	padding: 10px;
 }
 
 .boxes a {
@@ -14,6 +15,8 @@ body {
 	white-space: nowrap;
 	overflow: hidden;
 	text-indent: 100%;
+	border-radius: 2%;
+	border: 2px solid rgb(248, 232, 193);
 }
 
 a.writer {
@@ -27,6 +30,7 @@ a.writer:active {background-position: -800px -10px; }
 a.painter {
 	background: url(../images/box3.jpg) no-repeat;
     z-index: 5;
+    margin-left: 50px;
 }
 a.painter {background-position: -100px -93px; }
 a.painter:hover {background-position:  }
@@ -35,7 +39,7 @@ a.painter:active {background-position: -800px -40px; }
 #about {
 	border-top: 2px solid grey;
 	padding: 3px 0 0 0;
-	margin: 3px 0 10px 10px;
+	margin: 0px 0 10px 10px;
 	width: 100%;
 	display: block;
 }
