@@ -4,6 +4,7 @@ body {
 
 .boxes {
 	text-align: center;
+	background: url(../images/back8-1.jpg);
 }
 
 .boxes a {
@@ -13,7 +14,6 @@ body {
 	white-space: nowrap;
 	overflow: hidden;
 	text-indent: 100%;
-
 }
 
 a.writer {
@@ -34,8 +34,8 @@ a.painter:active {background-position: -800px -40px; }
 
 #about {
 	border-top: 2px solid grey;
-	padding: 0;
-	margin: 0 5px 10px 0;
+	padding: 3px 0 0 0;
+	margin: 3px 0 10px 10px;
 	width: 100%;
 	display: block;
 }
@@ -67,7 +67,6 @@ footer {
 	height: 20px;
 }
 
-/*////fixes///*/
 
 
 
