@@ -2,11 +2,11 @@
 	border-bottom: 1px solid black;
 }
 
-.light-fade {
+  .light-fade {
   background: #efefef; /* Old browsers */
   background: -moz-linear-gradient(top,  #efefef 0%, #ffffff 24%, #ffffff 68%, #dddddd 100%); /* FF3.6+ */
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#efefef), color-stop(24%,#ffffff), color-stop(68%,#ffffff), color-stop(100%,#dddddd)); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top,  #efefef 0%,#ffffff 24%,#ffffff 68%,#dddddd 100%); /* Chrome10+,Safari5.1+ */
+  background: -webkit-linear-gradient(top,  #efefef 0%,#ffffff 24%,#ffffff 68%,#dddddd 100%);  Chrome10+,Safari5.1+ 
   background: -o-linear-gradient(top,  #efefef 0%,#ffffff 24%,#ffffff 68%,#dddddd 100%); /* Opera 11.10+ */
   background: -ms-linear-gradient(top,  #efefef 0%,#ffffff 24%,#ffffff 68%,#dddddd 100%); /* IE10+ */
   background: linear-gradient(to bottom,  #efefef 0%,#ffffff 24%,#ffffff 68%,#dddddd 100%); /* W3C */
@@ -15,18 +15,22 @@
 }
 
 .navigation {
-	display: inline-block;
+	display: block;
 	float: right;
+    margin-top: 10px;
 }
 
 .nav {
-	margin: 7px;
+	margin: 0;
+	padding: 0;
+	float: right;
 	list-style: none;
-	display: block;
+	display: inline-block;
 }
 
 .menubar a.menu-icon {
   display: none;
+  margin-top: 0px;
 }
 
 h1 {
