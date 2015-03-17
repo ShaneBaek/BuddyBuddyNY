@@ -5,7 +5,7 @@ body {
 .boxes {
 	text-align: center;
 	background: url(../images/28.jpg);
-	padding: 10px;
+	padding: 40px 10px 60px 10px;
 }
 
 .boxes a {
@@ -44,22 +44,38 @@ a.painter:active {background-position: -800px -40px; }
 	display: block;
 }
 
+.writer-quote {
+    border-top: 2px solid grey;
+	padding: 3px 0 0 0;
+	margin: 0px 0 10px 10px;
+	width: 100%;
+	display: block;
+}
+
+.painter-quote {
+    border-top: 2px solid grey;
+	padding: 3px 0 0 0;
+	margin: 0px 0 10px 10px;
+	width: 100%;
+	display: block;
+}
+
 h2 {
-	padding: 0; 
+	padding: 0 0 0 5px; 
 	margin: 0;
 	display: inline-block;
-	font-family: 2em 'Baskerville', serif; 
+	font-family: 'Raleway', sans-serif; 
 	color: black;
 	font-weight: normal;
 }
 
 p {
-	padding: 0; 
+	padding: 0 5px 0 5px; 
 	display: inline-block;
-	font-family: 1.3em 'Baskerville', serif; 
+	font-family: 'Source Sans Pro', sans-serif;
 	color: black;
 	font-weight: normal;
-	margin: 5px 0 0 0;
+	margin: 2px 0 0 0;
 }
 
 footer {
